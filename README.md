@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# 유저친화적 웹툰웹페이지 제작
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 0. 제작동기
 
-In the project directory, you can run:
+본 프로젝트를 시작한 이유는 다음과 같다.
 
-### `npm start`
+1. 보다 좋아하는 주제를 선택해서 FE/BE 능력을 키우는데에 동기부여를 하기 위해.
+2. 관련 취미를 오랫동안 즐긴 유저 입장에서 요즘 웹툰 사이트의 디자인에 있었으면 하는 개선점을 구현해보고자.
+3. 추후 연관 프로젝트의 기반으로 사용하기 위해.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 1. 기존 웹툰 페이지
+ 기존 웹툰 페이지들은 대개 홈화면-연재화면-장르별 분류 화면들은 제목크기보다 상대적으로 큰 표지 아래에 제목과 작가가 쓰여 있다. 종이책 표지들은 상대적으로 표지의 일러스트가 풍경에서 도형, 인물까지 자유로운 편이지만, 주인공이란 캐릭터가 분명히 있는 웹툰은 표지가 주인공 얼굴로 장식될 수 밖에 없다. 하지만 과거보다 웹툰 가짓수가 비등히 늘어난 오늘날, 주인공 얼굴을 크게 박은 여러 개의 표지들의 나열과 상대적으로 작은 크기의 제목은 독자인 나에겐 스토리가 기대될 요소를 읽기 어렵게 하는 점이다. 물론 웹툰에서 그림체란 중요한 요소이지만 오늘날 웹툰 웹사이트는 작품의 무게가 그림체에 쏠리도록 하는 구조라고 생각한다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+☞ 독자에게 줄거리의 유추를 돕는 웹툰 웹페이지 프론트 디자인을 할 것이다. 또한 줄거리 유추를 돕기 위해 웹소설 플랫폼의 키워드 추천 방식도 디자인에 첨가한다. 그리고 이후 '독자 후기에서 키워드 필터링하기' 등의 프로젝트를 한다면 이 또한 반영할 예정이다.
 
-### `npm test`
+## 2. 설계 및 프로토타입
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
